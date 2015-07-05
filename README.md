@@ -27,11 +27,11 @@ Meteor package for sending email via Mandrill
     };
 
 ### Example API usage
- Read more on how to use merge tags in the [Mandrill docs.](http://help.mandrill.com/entries/21678522-How-do-I-use-merge-tags-to-add-dynamic-content-)
+ Read more on how to use merge tags in the [Mandrill docs.](https://mandrill.zendesk.com/hc/en-us/articles/205582487-How-do-I-use-merge-tags-to-add-dynamic-content-)
 
 The `sendTemplate` method uses Mandrill's `https://mandrillapp.com/api/1.0/messages/send-template.json` call.
 
-Find out what else you can send, including how to send [mc:edit](http://help.mandrill.com/entries/21694286-How-do-I-add-dynamic-content-using-editable-regions-in-my-template-) regions, by reviewing the [Mandrill API documentation.](https://mandrillapp.com/api/docs/messages.JSON.html#method=send-template)
+Find out what else you can send, including how to send [mc:edit](https://mandrill.zendesk.com/hc/en-us/articles/205582497-How-do-I-add-dynamic-content-using-editable-regions-in-my-template-) regions, by reviewing the [Mandrill API documentation.](https://mandrillapp.com/api/docs/messages.JSON.html#method=send-template)
 
     #server code
     Meteor.Mandrill.sendTemplate({
