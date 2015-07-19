@@ -1,7 +1,7 @@
 Package.describe({
-  summary: "Send email via Mandrill's send-template.json",
+  summary: "Mandrill (official): Send templated email and more via Mandrill",
   name: 'wylio:mandrill',
-  version: '0.3.0',
+  version: '1.0.0',
   git: "https://github.com/Wylio/meteor-mandrill",
   documentation: 'README.md'
 });
