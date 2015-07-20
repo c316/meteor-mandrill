@@ -59,7 +59,7 @@ Mandrill = {
     },
     
     sendTemplate: function (options) {
-        console.error('Please see the Breaking changes section in the wylio:mandrill README');
+        console.error('Please see the "Breaking changes" section in the wylio:mandrill README');
         process.exit(1);
     }
 };

@@ -1,3 +1,5 @@
+![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat)
+
 Mandrill for Meteor
 ===================
 
@@ -150,6 +152,10 @@ In practice this doesn't work, due to a [Meteor issue](https://github.com/meteor
 
 
 ## Breaking changes in v1.0
+
+If you're upgrading from v0.x, you need to update the package as follows:
+
+    meteor update wylio:mandrill --allow-incompatible-update
 
 Version 1.0 implements the *complete* Mandrill API, and no longer catches errors to the console, so
 that you can take more appropriate action in case an API call fails. Due to this latter change,
