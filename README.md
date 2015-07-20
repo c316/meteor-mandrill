@@ -1,6 +1,4 @@
-![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat)
-
-Mandrill for Meteor
+Mandrill for Meteor [![Build Status](https://travis-ci.org/Wylio/meteor-mandrill.svg)](https://travis-ci.org/Wylio/meteor-mandrill/) ![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat)
 ===================
 
 Meteor package for sending email (and more) directly via [Mandrill's HTTP POST API](https://mandrillapp.com/api/docs/).
