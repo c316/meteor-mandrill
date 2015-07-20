@@ -1,10 +1,12 @@
 language: node_js
-
+node_js:
+  - "0.10"
+  
 before_script:
   # Install meteor
   - curl https://install.meteor.com | /bin/sh
   # Install spacejam, Meteor's CI helper
-  - npm install -g spacejam
+  - npm install spacejam
 
 script:
   - node_modules/.bin/spacejam --mongo-url mongodb:// test-packages ./
