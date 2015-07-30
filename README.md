@@ -161,7 +161,8 @@ backwards compatibility with 0.x was not provided; instead you only need to make
 
 > `Meteor.Mandrill.sendTemplate` is now `Mandrill.messages.sendTemplate`.
 
-As you can see, `Meteor.Mandrill` was replaced by `Mandrill` global.
+As you can see, `Meteor.Mandrill` was replaced by the `Mandrill` global. This applies to the
+`Mandrill.config()` call as well as to all other calls, e.g. `Mandrill.messages.*`.
 
 The only other breaking change is that `Meteor.Mandrill.send` no longer works. This was simply an
 alias for Meteor's `Email.send`, which provided no added value. Just use `Email.send` to send through
