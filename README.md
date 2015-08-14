@@ -1,5 +1,5 @@
-Mandrill for Meteor [![Build Status](https://travis-ci.org/Wylio/meteor-mandrill.svg)](https://travis-ci.org/Wylio/meteor-mandrill/) ![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat)
-===================
+# Mandrill for Meteor [![Build Status](https://travis-ci.org/Wylio/meteor-mandrill.svg)](https://travis-ci.org/Wylio/meteor-mandrill/) [![Percentage of issues still open](http://isitmaintained.com/badge/open/Wylio/meteor-mandrill.svg)](http://isitmaintained.com/project/Wylio/meteor-mandrill "Percentage of issues still open") ![GitHub license](https://img.shields.io/:license-mit-blue.svg?style=flat)
+
 
 Meteor package for sending email (and more) directly via [Mandrill's HTTP POST API](https://mandrillapp.com/api/docs/).
 
@@ -132,7 +132,7 @@ Accounts.emailTemplates.enrollAccount.html = function (user, url) {
   } catch (error) {
     console.error('Error while rendering Mandrill template', error);
   }
-  return result.html;
+  return result.data.html;
 }
 ```
 
