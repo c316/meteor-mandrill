@@ -58,7 +58,7 @@ Read more on how to use merge tags in the [Mandrill docs](https://mandrill.zende
 ```js
 
 Mandrill.messages.sendTemplate({
-    key: 'YOUR_MANDRILL_API_KEY', // optional, if you set it in via Mandril.config() already
+    key: 'YOUR_MANDRILL_API_KEY', // optional, if you have set it via Mandril.config() already
     template_name: 'YOUR_TEMPLATE_SLUG_NAME',
     template_content: [
       {
