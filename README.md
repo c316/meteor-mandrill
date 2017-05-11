@@ -5,6 +5,8 @@ Meteor package for sending email (and more) directly via [Mandrill's HTTP POST A
 
 NOTE: Mandrill used to offer free accounts that could send up to 12,000 emails per month, but that is [no longer the case](https://twitter.com/adamegreer/status/622037317616840704) after July 17, 2015. Existing users will maintain the free plan.
 
+A good alternative is SparkPost, with [100,000 free emails per month](https://www.sparkpost.com/pricing/). They offer a [migration path from Mandrill](https://www.sparkpost.com/blog/mandrill-template-migration-tool-mst3k). As such, this package is unlikely to see significant further maintenance.
+
 
 ## Notes on other packages
 
