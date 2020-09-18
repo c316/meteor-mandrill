@@ -2,7 +2,7 @@ Package.describe({
   summary: "Mandrill",
   name: 'c316:mandrill',
   version: '1.0.2',
-  git: "https://github.com/c316/meteor-mandrill,
+  git: "https://github.com/c316/meteor-mandrill",
   documentation: 'README.md'
 });
 
