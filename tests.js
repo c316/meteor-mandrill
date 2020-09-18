@@ -22,7 +22,7 @@ Tinytest.add('templates.add', function (test) {
     name: 'Meteor package test template',
     from_email: process.env.MANDRILL_API_USER,
     from_name: 'Meteor package tester',
-    subject: 'Testing Meteor package wylio:mandrill',
+    subject: 'Testing Meteor package c316:mandrill',
     code: '<html><body><p mc:edit="body">Test: is this mc:edit section replaced?</p><p>Test: is this merge var replaced? *|REPLACEME|*</p></body></html>',
     text: 'Text part of the email',
     publish: true
