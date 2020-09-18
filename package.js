@@ -15,6 +15,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('tinytest');
-  api.use('wylio:mandrill');
+  api.use('c316:mandrill');
   api.addFiles('tests.js', 'server');
 });
