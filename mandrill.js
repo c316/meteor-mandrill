@@ -21,7 +21,7 @@ Mandrill = {
             metadata: ['list', 'add', 'update', 'delete']
         };
         var headers = {
-            'User-Agent': 'Meteor package wylio:mandrill/1.0.0'
+            'User-Agent': 'Meteor package c316:mandrill/1.0.0'
         };
 
         var instance = this;
@@ -59,7 +59,7 @@ Mandrill = {
     },
     
     sendTemplate: function (options) {
-        console.error('Please see the "Breaking changes" section in the wylio:mandrill README');
+        console.error('Please see the "Breaking changes" section in the c316:mandrill README');
         process.exit(1);
     }
 };
